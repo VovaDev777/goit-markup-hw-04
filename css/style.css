@@ -375,6 +375,9 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.work-icon-con:hover {
+    background-color: #404BBF;
+}
 .icon-container {
     display: flex;
     gap: 24px;
@@ -394,6 +397,9 @@ footer {
 }
 .current {
     position: relative;
+}
+.current-color {
+    color: #404BBF;
 }
 .current::after {
     content: '';
@@ -422,6 +428,23 @@ footer {
 .customers-item {
     fill: #8E8F99;
 }
+.customers-item-list:hover {
+    border-color: #404BBF; 
+}
+
+.customers-item-list:hover .customers-item {
+    fill: #404BBF; 
+}
+
 .customers-container {
     padding-bottom: 120px;
+}
+.social-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+}
+.footer-icons {
+    display: flex;
+    width: 208px;
+    margin-left: 120px;
 }
