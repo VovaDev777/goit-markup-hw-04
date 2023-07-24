@@ -139,7 +139,7 @@ footer {
 .button-section {
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/people-office\ 1.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/people-office\ 111.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -200,12 +200,16 @@ footer {
     background-color: #404BBF;
     cursor: pointer;
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .image-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+}
+.image-block {
+    display: block;
 }
 .link {
     text-decoration: none;
@@ -525,6 +529,7 @@ footer {
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--primary-grey-color);
 }
 .footer-link-icon:hover,
 .footer-link-icon:focus {
