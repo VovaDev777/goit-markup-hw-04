@@ -412,6 +412,7 @@ footer {
     display: flex;
     gap: 24px;
     margin-top: 8px;
+    justify-content: center;
 }
 .work-social-icons {
     fill: #F4F4FD;
