@@ -388,7 +388,7 @@ footer {
 
 .icon-adv-container {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     background-color: #f4f4fd;
     border-radius: 4px;
