@@ -406,7 +406,8 @@ footer {
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.work-icon-con:hover {
+.work-icon-con:hover,
+.work-icon-con:focus {
     background-color: #404BBF;
 }
 
@@ -470,7 +471,7 @@ footer {
 }
 
 .customers-container {
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 .social-text {
     color: #F4F4FD;
