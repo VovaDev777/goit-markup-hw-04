@@ -197,6 +197,10 @@ footer {
     background:#F4F4FD;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.image-list-item {
+    width: calc((100% - 48px) / 3);
+}
 .order-button-portfolio:hover,
 .order-button-portfolio:focus {
     color: #FFFFFF;
