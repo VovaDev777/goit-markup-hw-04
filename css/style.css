@@ -24,6 +24,8 @@ ul, ol{
 }
 img {
     display: block;
+    width: 100%;
+    height: auto;
 }
 .container { 
     max-width: 1158px;
@@ -139,7 +141,7 @@ footer {
 .button-section {
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 111.jpeg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 111.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
