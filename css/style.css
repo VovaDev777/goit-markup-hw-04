@@ -239,7 +239,11 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.image-block:hover .cover-text,
+
+.image-block:hover .cover-text {
+    transform: translateY(0%);
+}
+
 .image-block:focus .cover-text {
     transform: translateY(0%);
 }
